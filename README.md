@@ -17,6 +17,7 @@ Proyek ini memiliki tujuan untuk memberikan wawasan yang lebih baik tentang ting
 ### Filter:
 #### Rentang Waktu dan Hari:
 ![Filter](https://github.com/ekasetyo090/air_quality_dashboard/blob/79a836a5066b3fa90525107e79ed06e81933e415/screenshot/fitur%20filter.png)
+
 Memilih rentang waktu visualisasi data, dan pemilihan hari untuk menampilkan konsentrasi debu di waktu tertentu pada hari yang dipilih.
 
 ### Visualisasi:
