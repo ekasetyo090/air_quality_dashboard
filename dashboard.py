@@ -94,7 +94,7 @@ plt.ylabel('Jumlah Partikel Debu')
 plt.title('Hari Paling Berdebu')
 st.pyplot(fig)
 
-st.subheader(f'Rata-rata Polusi Berdasarkan Waktu Di Hari "{period}" Pada ({str(start_date)} dan {str(end_date)})')
+st.subheader(f'Konsentrasi debu di waktu tertentu pada "{period}" rentang ({str(start_date)} dan {str(end_date)})')
 
 list_warna = ['#FF0000']
 my_palette = sns.color_palette(list_warna)
@@ -103,7 +103,7 @@ fig = plt.figure(figsize =(11, 5))
 sns.lineplot(x='pukul', y='debu total', data=df_day_hour)
 plt.xlabel('Pukul')
 plt.ylabel('Jumlah Partikel Debu')
-plt.title('Hari Paling Berdebu')
+plt.title('Konsentrasi debu')
 st.pyplot(fig)
 
 
