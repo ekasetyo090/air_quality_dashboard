@@ -1,6 +1,6 @@
 # Polusi Debu Beijing Dashboard
 ![Polusi Debu Beijing Dashboard](https://github.com/ekasetyo090/air_quality_dashboard/blob/79a836a5066b3fa90525107e79ed06e81933e415/screenshot/tampilan%20penuh.png)
-
+[![Open in Streamlit Cloud](https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.png)](https://ekasetyo090-airquality.streamlit.app/)
 ## Daftar isi
 
 - [Deskripsi](#deskripsi)
