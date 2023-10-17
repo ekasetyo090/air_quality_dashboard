@@ -65,9 +65,9 @@ st.header('Polusi Debu Beijing Dashboard :mask:')
 st.subheader(f'Total Konsentrasi Pada Rentang Waktu {str(start_date)} dan {str(end_date)}')
 
 fig = plt.figure(figsize =(11, 5))
-list_warna = ['#FF6347']
-my_palette = sns.color_palette(list_warna)
-sns.set_palette(my_palette)
+list_warna1 = ['#FF6347']
+my_palette1 = sns.color_palette(list_warna1)
+sns.set_palette(my_palette1)
 sns.lineplot(x='tanggal', y='debu total', data=df_tren)
 #plt.xticks(range(len(df_tren)), df_tren['tanggal'], rotation=45)
 plt.xlabel('waktu')
@@ -78,15 +78,15 @@ st.pyplot(fig)
 
     
 st.subheader(f'Rata-rata Polusi Di Hari Yang Berbeda ({str(start_date)} dan {str(end_date)})')   
-list_warna = []
+list_warna2 = []
 for i in df_day_name['debu total']:
     if i == df_day_name['debu total'].max():
-        list_warna.append('#FF0000')
+        list_warna2.append('#FF0000')
     else:
-        list_warna.append('#FF6347')
+        list_warna2.append('#FF6347')
 
-my_palette = sns.color_palette(list_warna)
-sns.set_palette(my_palette)    
+my_palette2 = sns.color_palette(list_warna2)
+sns.set_palette(my_palette2)    
 fig = plt.figure(figsize =(11, 5))
 sns.barplot(x='hari', y='debu total', data=df_day_name)
 plt.xlabel(f'Hari')
