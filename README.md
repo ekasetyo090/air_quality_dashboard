@@ -2,7 +2,7 @@
 ![Polusi Debu Beijing Dashboard](https://github.com/ekasetyo090/air_quality_dashboard/blob/79a836a5066b3fa90525107e79ed06e81933e415/screenshot/tampilan%20penuh.png)
 [![Open Analysis in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ekasetyo090/air_quality_dashboard/blob/master/Proyek_Analisis_Air_Quality.ipynb)
 
-![Open Dashboard in Streamlit Cloud](https://ekasetyo090-airquality.streamlit.app/)
+Open Dashboard in Streamlit Cloud : https://ekasetyo090-airquality.streamlit.app/
 
 ## Daftar isi
 
